@@ -1,13 +1,13 @@
 const posts = [
   {
-    title: 'C++ vs Java',
+    title: "C++ vs Java",
     content:
-      'Is Java better than C++ in terms of learning curve especially when it comes to design patterns or software design and architecture?',
+      "Is Java better than C++ in terms of learning curve especially when it comes to design patterns or software design and architecture?",
     id: 1,
   },
   {
-    title: 'NodeJS or Django',
-    content: 'Should i choose Nodejs over Django?Why?',
+    title: "NodeJS or Django",
+    content: "Should i choose Nodejs over Django?Why?",
     id: 2,
   },
 ];
@@ -35,18 +35,7 @@ const comments = [
   },
 ];
 
-function getPostComments(postID) {
-  const post = posts.find(function ({ id }) {
-    return id === postID;
-  });
-
-  const commentaires = comments.filter(function (comment) {
-    return comment.post_id === postID;
-  });
-
-  return {
-    [post.title]: commentaires,
-  };
-}
-
-const postComments = getPostComments(1);
+//Créer un fonction qui prend en paramètre un post, et qui ensuite retourne tous
+//ses commentaire dans le format suivant
+//{  idPost:[ {comment1},{comment2},...,{comment(n)} ] }
+//
