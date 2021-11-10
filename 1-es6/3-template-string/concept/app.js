@@ -1,9 +1,9 @@
 const moi = {
-  nom: 'Lisangola',
-  prenom: 'Christian',
-  email: 'christian.lisangola@gmail.com',
+  nom: "Lisangola",
+  prenom: "Christian",
+  email: "christian.lisangola@gmail.com",
   age: 90,
-  nationalite: 'congolaise',
+  nationalite: "Français",
 };
 
 // console.log(
