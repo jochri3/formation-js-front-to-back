@@ -1,10 +1,4 @@
-function User(
-  nom,
-  prenom,
-  age,
-  pays = "France",
-  id = Math.floor(Math.random() * new Date())
-) {
+function User(nom,prenom,age,pays = "France",id = Math.floor(Math.random() * new Date())) {
   this.nom = nom;
   this.prenom = prenom;
   this.age = age;
