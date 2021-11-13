@@ -19,6 +19,7 @@ const famille = { nom: "Lisangola", pays: "France", ville: "Kinshasa" };
 //Spread
 const familleSuite = { ...famille, ageMax: 90 };
 
+// Rest
 const { nom, ...rest } = famille;
 
 const Composant = (props) => {
